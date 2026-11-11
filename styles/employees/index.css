@@ -1,0 +1,102 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+main h2 {
+  margin-bottom: 15px;
+}
+
+header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: #0f766e;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-login {
+  background: white;
+  color: #0f766e;
+  border: 1px solid #0f766e;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-register {
+  background: #0f766e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button {
+  background: #0f766e;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d5c56;
+}
+
+.btn-tambah {
+  margin-bottom: 15px;
+}
+table {
+  background: white;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  background: #0f766e;
+  color: white;
+}
+
+th,
+td {
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+  font-size: 14px;
+}

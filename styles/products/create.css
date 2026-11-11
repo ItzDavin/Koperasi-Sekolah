@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  background: #f2f4f7;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 20px 30px;
+  text-align: left;
+}
+
+main h2 {
+  margin-bottom: 15px;
+}
+
+
+header {
+  background: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-weight: bold;
+  color: #0f766e;
+}
+
+.auth {
+  display: flex;
+  gap: 10px;
+}
+
+.btn-login {
+  background: white;
+  color: #0f766e;
+  border: 1px solid #0f766e;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.btn-register {
+  background: #0f766e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+form {
+  width: 100%;
+  max-width: 500px;
+  margin: 0;
+  text-align: left;
+}
+
+form label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+/* CSS ternyata bisa pake koma */
+input, select, textarea {
+  width: 100%;
+  padding: 9px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+textarea {
+  resize: none;
+  height: 80px;
+}
+
+/* bisa kasi css ke input yang dipilih tipenya */
+input[type="radio"] {
+  width: auto;
+}
+
+.radio {
+  display: flex;
+  gap: 15px;
+}
+
+.radio label {
+  margin: 0;
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+
+.tombol {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+button {
+  background: #0f766e;
+  color: white;
+  border: none;
+  padding: 9px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0d5c56;
+}
+
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 15px;
+  color: #888;
+  font-size: 14px;
+}
